@@ -1,7 +1,10 @@
 import Script from 'next/script'
 
+// Use your Rewardful API Key
 const API_KEY= process.env.NEXT_PUBLIC_REWARDFUL_DEMO_API_KEY
-const SCRIPT_URL = process.env.NEXT_PUBLIC_APP_REWARDFUL_SCRIPT_URL
+
+// If not setting NEXT_PUBLIC_APP_REWARDFUL_SCRIPT_URL, just use https://r.wdfl.co/rw.js
+const SCRIPT_URL = process.env.NEXT_PUBLIC_APP_REWARDFUL_SCRIPT_URL || 'https://r.wdfl.co/rw.js'
 
 export default function MyApp({ Component, pageProps }) {
     return (
