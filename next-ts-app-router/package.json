@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@stripe/stripe-js": "^2.1.7",
-    "next": "13.5.4",
+    "next": "^14.2.3",
     "react": "^18",
     "react-dom": "^18"
   },
